@@ -1,4 +1,0 @@
-venv/
-mlruns/
-*.db
-__pycache__/
