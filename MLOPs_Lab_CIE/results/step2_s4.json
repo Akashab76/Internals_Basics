@@ -1,0 +1,17 @@
+{
+  "health_endpoint": "/ping",
+  "predict_endpoint": "/forecast",
+  "port": 8500,
+  "health_response": {
+    "status": "running",
+    "model": "Lasso",
+    "version": "1.0"
+  },
+  "test_input": {
+    "order_weight_kg": 10.5,
+    "distance_km": 6.5,
+    "is_peak_hour": 0,
+    "items_count": 6
+  },
+  "prediction":47.12452078278655
+}
